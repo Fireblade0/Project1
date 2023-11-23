@@ -1,0 +1,42 @@
+@font-face {
+    font-family: milk;
+    src :url(./Buttermilk.woff2)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(./bg.webp);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 160px;
+    transform: translate(-50%,-50%);
+    font-family: milk;
+    font-weight: 100;
+    color: white;
+    mix-blend-mode: difference;
+}
+h3{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: milk;
+    font-weight: 100;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 90px;
+}
